@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Space Grotesk, Inter, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Un soir et un matin de l'agent Opportunités LinkedIn : lecture du fil sans aucune action, pistes avec leur lien, brouillon écrit à partir de sources publiques, oui ou non mail par mail">
+  <defs>
+    <pattern id="grille" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24,0 H0 V24" fill="none" stroke="#ffffff" stroke-opacity="0.05"/></pattern>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c3d2f5"/></marker>
+    <marker id="j" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ffe45e"/></marker>
+  </defs>
+  <rect width="960" height="480" rx="14" fill="#123a8f"/>
+  <rect width="960" height="480" rx="14" fill="url(#grille)"/>
+  <text x="32" y="44" fill="#f4f7ff" font-size="20" font-weight="700">Un soir et un matin de l'agent Opportunités LinkedIn</text>
+  <text x="32" y="68" fill="#c3d2f5" font-size="13">lecture seule du fil · adresses publiques seulement · rien ne part sans un oui pour ce mail</text>
+  <text x="928" y="44" fill="#ffe45e" font-size="11" text-anchor="end" font-family="Space Mono, Consolas, Menlo, monospace">FIG. 01</text>
+
+  <!-- le soir -->
+  <rect x="32" y="96" width="262" height="84" rx="10" fill="#0d2f78" stroke="#ffffff" stroke-opacity="0.35"/>
+  <text x="48" y="122" fill="#f4f7ff" font-size="15" font-weight="700">19 h : le fil des 24 h</text>
+  <text x="48" y="145" fill="#c3d2f5" font-size="12">lu par un relais navigateur</text>
+  <text x="48" y="164" fill="#c3d2f5" font-size="12">aucun clic, aucun message</text>
+  <path d="M294,138 H330" stroke="#c3d2f5" stroke-width="2" marker-end="url(#b)"/>
+
+  <rect x="332" y="96" width="262" height="84" rx="10" fill="#0d2f78" stroke="#ffffff" stroke-opacity="0.35"/>
+  <text x="348" y="122" fill="#f4f7ff" font-size="15" font-weight="700">Les pistes gardées</text>
+  <text x="348" y="145" fill="#c3d2f5" font-size="12">quelqu'un cherche un prestataire</text>
+  <text x="348" y="164" fill="#c3d2f5" font-size="12">avec le lien de sa publication</text>
+  <path d="M594,138 H630" stroke="#c3d2f5" stroke-width="2" marker-end="url(#b)"/>
+
+  <rect x="632" y="96" width="296" height="84" rx="10" fill="#0d2f78" stroke="#ffffff" stroke-opacity="0.35"/>
+  <text x="648" y="122" fill="#f4f7ff" font-size="15" font-weight="700">Brouillons, sur un poste prêté</text>
+  <text x="648" y="145" fill="#c3d2f5" font-size="12">recherche web publique,</text>
+  <text x="648" y="164" fill="#c3d2f5" font-size="12">jamais LinkedIn, aucune commande</text>
+
+  <path d="M780,180 V202 H296 V222" stroke="#c3d2f5" stroke-width="2" fill="none" marker-end="url(#b)"/>
+  <text x="510" y="196" fill="#c3d2f5" font-size="12">dans le rapport du matin</text>
+
+  <!-- le brouillon -->
+  <rect x="32" y="224" width="528" height="226" rx="10" fill="#f4f7ff"/>
+  <text x="52" y="250" fill="#123a8f" font-size="12" font-weight="700">[O1411-1]</text>
+  <text x="132" y="250" fill="#3c5a99" font-size="12">Atelier Exemple · devis à automatiser</text>
+  <path d="M52,262 H540" stroke="#123a8f" stroke-opacity="0.2"/>
+  <text x="52" y="282" fill="#3c5a99" font-size="12">À :</text>
+  <text x="104" y="282" fill="#0d2f78" font-size="12">contact@atelier.example</text>
+  <text x="270" y="282" fill="#3c5a99" font-size="11">(publiée sur atelier.example/contact)</text>
+  <text x="52" y="301" fill="#3c5a99" font-size="12">Objet :</text>
+  <text x="104" y="301" fill="#0d2f78" font-size="12" font-weight="700">Vos devis, sans les retaper</text>
+  <path d="M52,313 H540" stroke="#123a8f" stroke-opacity="0.2"/>
+  <text x="52" y="334" fill="#0d2f78" font-size="12">Bonjour Madame Exemple,</text>
+  <text x="52" y="356" fill="#0d2f78" font-size="12">J'ai vu votre message sur LinkedIn : vous cherchez quelqu'un pour que</text>
+  <text x="52" y="373" fill="#0d2f78" font-size="12">vos devis partent sans être retapés. Je vois par exemple :</text>
+  <text x="52" y="395" fill="#0d2f78" font-size="12">– <tspan font-weight="700">les demandes du formulaire</tspan> transformées en devis prêt à relire ;</text>
+  <text x="52" y="417" fill="#0d2f78" font-size="12">Je vous propose un <tspan font-weight="700">entretien d'une heure offert</tspan>, en visio.</text>
+  <text x="52" y="438" fill="#3c5a99" font-size="11">150 à 220 mots · la signature est ajoutée à l'envoi</text>
+
+  <!-- oui / non -->
+  <path d="M560,262 H618" stroke="#ffe45e" stroke-width="2" marker-end="url(#j)"/>
+  <rect x="620" y="224" width="308" height="84" rx="10" fill="#0d2f78" stroke="#ffe45e" stroke-width="1.5"/>
+  <text x="636" y="250" fill="#ffe45e" font-size="15" font-weight="700">oui O1411-1</text>
+  <text x="636" y="273" fill="#f4f7ff" font-size="12">envoyer.py envoie ce brouillon,</text>
+  <text x="636" y="292" fill="#f4f7ff" font-size="12">signature, copie dans Envoyés</text>
+
+  <path d="M560,346 H618" stroke="#c3d2f5" stroke-width="2" marker-end="url(#b)"/>
+  <rect x="620" y="320" width="308" height="52" rx="10" fill="#0d2f78" stroke="#ffffff" stroke-opacity="0.35"/>
+  <text x="636" y="343" fill="#f4f7ff" font-size="15" font-weight="700">non O1411-1</text>
+  <text x="636" y="362" fill="#c3d2f5" font-size="12">écarté, rien ne part</text>
+
+  <rect x="620" y="384" width="308" height="66" rx="10" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-dasharray="5 4"/>
+  <text x="636" y="406" fill="#f4f7ff" font-size="12">envoyer.py refuse sans oui enregistré,</text>
+  <text x="636" y="424" fill="#f4f7ff" font-size="12">sans adresse publique,</text>
+  <text x="636" y="442" fill="#f4f7ff" font-size="12">ou si le mail est déjà parti.</text>
+</svg>

@@ -1,0 +1,8 @@
+etat/
+rapports/
+validations/
+envoyes/
+logs/
+verrous/
+deja-vus.txt
+__pycache__/

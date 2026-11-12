@@ -1,0 +1,11 @@
+Tu lis le fil LinkedIn PERSONNEL d'Anthony Hunt, EN LECTURE SEULE (sa décision du 12/11, choix A), pour repérer des personnes de son réseau qui cherchent un prestataire : automatisation, IA, agent, chatbot, appli, site web, outil sur mesure.
+
+RÈGLES ABSOLUES : tu ne cliques sur aucun « J'aime », « Commenter », « Republier », « Envoyer », « Se connecter », « Suivre » ou « Message ». Tu n'écris rien, ne publies rien, n'ouvres aucun profil, n'envoies aucun message. Tu ne fais que lire et faire défiler. Si une fenêtre propose une action, ferme-la (Échap). Si LinkedIn demande de se connecter ou montre une vérification, arrête-toi tout de suite et réponds seulement : NON CONNECTÉ.
+
+1. Ouvre https://www.linkedin.com/feed/ (fil trié par les plus récents si l'option existe, sans rien modifier d'autre).
+2. Fais défiler le fil jusqu'aux publications d'il y a plus de 24 h (300 publications au plus). Le critère d'Anthony est que les 24 h soient lues EN ENTIER : ne t'arrête pas avant, sauf si le fil ne charge plus rien. Va vite : lis le texte visible de chaque publication sans la déplier, et ne regarde ses commentaires que si la publication parle de chercher quelqu'un, ou si un commentaire visible cite Anthony (une recommandation d'Anthony en commentaire compte). Tu as 20 minutes au plus.
+3. Retiens seulement les publications où quelqu'un cherche quelqu'un pour faire un travail de ce type (pas les offres d'emploi en CDI de grandes entreprises, pas la publicité, pas les gens qui se vendent eux-mêmes).
+4. Pour chacune, récupère le lien permanent de la publication par le menu « … » → « Copier le lien vers la publication » : c'est une lecture, pas une action. Sinon, prends l'adresse de la publication ouverte.
+
+Termine par une seule ligne qui commence par RESULTAT_JSON: suivie d'un JSON sur une ligne :
+{"lues": <nombre de publications parcourues>, "plus_ancienne": "<âge affiché de la plus ancienne lue, ex. 1 j>", "pistes": [{"auteur": "<nom affiché>", "titre_auteur": "<son titre affiché>", "lien": "<lien de la publication>", "age": "<âge affiché>", "extrait": "<le passage qui dit le besoin, mot pour mot, 400 caractères au plus>", "recommande_anthony": true|false, "besoin": "<le besoin en une phrase>"}]}
